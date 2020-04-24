@@ -1,0 +1,47 @@
+\documentclass[b5paper]{ltjsarticle}
+
+\usepackage[ipa]{luatexja-preset} %% 日本語フォント
+\usepackage{graphicx} %% 画像挿入
+\usepackage{wrapfig} %% 画像回り込み
+\usepackage{wallpaper} %% 背景画像
+\usepackage{fancyhdr} %% ページ飾り
+\usepackage[normalem]{ulem} %% 打ち消し線
+
+\usepackage[dvipdfmx]{hyperref} %% ハイパーリンク用
+\usepackage{pxjahyper}
+
+\setcounter{secnumdepth}{1} %% 見出し数字削減
+
+\newcommand{\floatimage}[1]{ %% 右回り込み画像
+\begin{wrapfigure}{r}[0cm]{4cm}
+  \includegraphics[keepaspectratio,width=4cm]{#1}
+\end{wrapfigure}
+}
+
+\begin{document}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{KMC新勧説明冊子2020}
+\rhead{}
+\cfoot{\thepage}
+
+\input{./tex/cover} %% 表紙
+\input{./tex/toc} %% 目次
+
+\input{./tex/intro} %% KMCとは
+
+\input{./tex/events} %% イベント紹介
+
+\input{./tex/projects} %% プロジェクト紹介
+
+\input{./tex/shinpro} %% 新入生プロジェクト & スケジュール
+
+\input{./tex/morekmc} %% KMCの詳細
+
+\input{./tex/postscript} %% あとがき
+
+\input{./tex/terms} %% 用語集
+
+%%\input{./tex/backcover} %% 裏表紙
+\end{document}
