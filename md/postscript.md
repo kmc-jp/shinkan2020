@@ -1,7 +1,7 @@
 # あとがき
 この冊子はgithub上で公開されています。
 
-https://github.com/kmc-jp/shinkan2016-booklet
+https://github.com/kmc-jp/shinkan2020
 
 ## 編集
 ID:ano0406
@@ -10,3 +10,5 @@ KMCの立て看板や冊子表紙に描かれているキャラ「烏丸こま�
 
 ## 表紙絵
 ID:matu
+
+表紙を描いたmatuです。せめて「烏丸こまち」ちゃんだけでも覚えてってください。
